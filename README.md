@@ -2,6 +2,20 @@
 
 This repo is used to teach the fundamentals of [React](https://reactjs.org/). The `main` branch will always be up to date, with individual branches breaking down certain concepts.
 
+## Highlights
+
+React is built on few key concepts
+
+- Components are \*everything
+- We use JSX to build UI elements out of HTML
+- They are composable
+- Data flows downward to child components. A child knowns nothing about its parent.
+- Components get props from the parent.
+- Functional components have to state
+- Class components can have state
+
+## Topics by Branch
+
 - [01 - Functional and Class Components, State vs. Props and controlled inputs](https://github.com/matldupont/react-fundamentals/tree/01-components-state-props)
 
 ## Available Scripts
