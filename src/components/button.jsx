@@ -1,4 +1,4 @@
-const Button = ({ title, type = "button", onButtonClick }) => {
+const Button = ({ type = "button", onButtonClick, children }) => {
   const handleButtonClick = (event) => {
     event.preventDefault();
     onButtonClick();
@@ -6,7 +6,7 @@ const Button = ({ title, type = "button", onButtonClick }) => {
 
   return (
     <button onClick={handleButtonClick} type={type}>
-      {title}
+      {children}
     </button>
   );
 };

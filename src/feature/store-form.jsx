@@ -1,15 +1,18 @@
 import * as React from "react";
 import { Input, Button, Form } from "../components";
 
-const CustomerForm = () => {
+const StoreForm = () => {
   const handleSubmitForm = (values) => {
-    console.log("Submit my customer form", values);
+    console.log("Submit my store form", values);
   };
+
   return (
     <Form
       initialValues={{
         account: "",
         email: "",
+        postal: "",
+        area: "",
       }}
       onSubmit={handleSubmitForm}
     >
@@ -35,6 +38,24 @@ const CustomerForm = () => {
             error={touched.email && errors.email}
           />
 
+          <Input
+            label="Enter postal code"
+            id="postal"
+            onChange={onChange}
+            onBlur={onBlur}
+            value={values.postal}
+            error={touched.postal && errors.postal}
+          />
+
+          <Input
+            label="Enter an Area code "
+            id="area"
+            onChange={onChange}
+            onBlur={onBlur}
+            value={values.area}
+            error={touched.area && errors.area}
+          />
+
           <div>
             <Button onButtonClick={onSubmit} type="submit">
               Submit
@@ -46,4 +67,4 @@ const CustomerForm = () => {
   );
 };
 
-export { CustomerForm };
+export { StoreForm };
