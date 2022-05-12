@@ -13,6 +13,8 @@ This repo is used to teach the fundamentals of [React](https://reactjs.org/). Th
 
 - [01 - Functional and Class Components, State vs. Props and controlled inputs](https://github.com/matldupont/react-fundamentals/tree/01-components-state-props)
 
+- [02 - React Hooks and Reusable Form Components](https://github.com/matldupont/react-fundamentals/tree/02-forms)
+
 ## Available Scripts
 
 In the project directory, you can run:
