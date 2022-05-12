@@ -2,6 +2,14 @@
 
 This repo is used to teach the fundamentals of [React](https://reactjs.org/). The `main` branch will always be up to date, with individual branches breaking down certain concepts.
 
+## Highlights
+
+- As applications grow with more features, state must be raised higher to live around the new dependant features
+- The higher the state, the deeper we have to "prop drill" to get it to the relevant components
+- The [Context API](https://reactjs.org/docs/context.html) can help alleviate prop drilling and separation of concerns by giving related data (and actions) a home.
+- Custom hooks (`useCustomer()`) can be created to consume the provided context, lower the API's complexity and adding error checks for use outside the provider
+- _NOTE_: `React.createContext()` must be initialized with nothing (`()`) or `(undefined)` in order for the error checking to work properly. Default values will undermine the check.
+
 - [01 - Functional and Class Components, State vs. Props and controlled inputs](https://github.com/matldupont/react-fundamentals/tree/01-components-state-props)
 
 - [02 - React Hooks and Reusable Form Components](https://github.com/matldupont/react-fundamentals/tree/02-forms)
