@@ -10,6 +10,8 @@ This repo is used to teach the fundamentals of [React](https://reactjs.org/). Th
 - Custom hooks (`useCustomer()`) can be created to consume the provided context, lower the API's complexity and adding error checks for use outside the provider
 - _NOTE_: `React.createContext()` must be initialized with nothing (`()`) or `(undefined)` in order for the error checking to work properly. Default values will undermine the check.
 
+## Topics by Branch
+
 - [01 - Functional and Class Components, State vs. Props and controlled inputs](https://github.com/matldupont/react-fundamentals/tree/01-components-state-props)
 
 - [02 - React Hooks and Reusable Form Components](https://github.com/matldupont/react-fundamentals/tree/02-forms)
