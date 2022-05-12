@@ -6,6 +6,8 @@ This repo is used to teach the fundamentals of [React](https://reactjs.org/). Th
 
 - [02 - React Hooks and Reusable Form Components](https://github.com/matldupont/react-fundamentals/tree/02-forms)
 
+- [03 - New features exploring the Context API and more React Hooks](https://github.com/matldupont/react-fundamentals/tree/03-hooks-and-context)
+
 ## Available Scripts
 
 In the project directory, you can run:
