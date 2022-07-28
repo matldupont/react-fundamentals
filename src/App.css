@@ -65,3 +65,14 @@
   justify-content: space-between;
   grid-gap: 1rem;
 }
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.LayoutContent {
+  display: flex;
+  flex: 1;
+}

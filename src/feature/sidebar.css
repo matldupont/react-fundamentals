@@ -1,0 +1,5 @@
+.Sidebar {
+  border-right: 1px solid #ccc;
+  width: 100%;
+  max-width: 15rem;
+}

@@ -8,6 +8,8 @@ This repo is used to teach the fundamentals of [React](https://reactjs.org/). Th
 
 - [03 - New features exploring the Context API and more React Hooks](https://github.com/matldupont/react-fundamentals/tree/03-hooks-and-context)
 
+- [04 - WTF is Client Side Routing?!](https://github.com/matldupont/react-fundamentals/tree/04-routing)
+
 ## Available Scripts
 
 In the project directory, you can run:

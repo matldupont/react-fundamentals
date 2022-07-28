@@ -1,18 +1,22 @@
+import { Link, Outlet } from "react-router-dom";
 import { useCustomers } from "../hooks/customer";
 
 const CustomerList = () => {
   const { customers } = useCustomers();
   return (
     <div>
-      <h2>Customers</h2>
+      <Link to="/customers/new">Create Customer</Link>
       <ul>
         {customers.map((customer, idx) => (
           <li key={`${idx}-${customer.email}`} style={{ marginBottom: "1rem" }}>
-            <div>{customer.account}</div>
+            <Link to={`/customers/${customer.id}`}>
+              <div>{customer.account}</div>
+            </Link>
             <div>{customer.email}</div>
           </li>
         ))}
       </ul>
+      <Outlet />
     </div>
   );
 };

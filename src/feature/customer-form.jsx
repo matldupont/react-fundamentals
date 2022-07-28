@@ -1,18 +1,21 @@
 import * as React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { Input, Button, Form } from "../components";
 import { useCustomers } from "../hooks/customer";
 
 const CustomerForm = () => {
   const { addNewCustomer } = useCustomers();
 
+  const navigate = useNavigate();
   const handleSubmitForm = (values) => {
     addNewCustomer(values);
+    navigate("/customers");
   };
 
   return (
     <div>
       <h2>New Customer</h2>
-
+      <Link to="/customers">Back</Link>
       <Form
         initialValues={{
           account: "",
