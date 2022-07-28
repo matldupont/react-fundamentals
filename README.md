@@ -1,5 +1,7 @@
 # React Fundamentals
 
+## Topics by Branch
+
 This repo is used to teach the fundamentals of [React](https://reactjs.org/). The `main` branch will always be up to date, with individual branches breaking down certain concepts.
 
 - [01 - Functional and Class Components, State vs. Props and controlled inputs](https://github.com/matldupont/react-fundamentals/tree/01-components-state-props)
