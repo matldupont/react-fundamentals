@@ -1,5 +1,13 @@
 # React Fundamentals
 
+## Highlights
+
+- ReactRouter (v6) is one of many client side routers available.
+- All (or most?) router implementations tie back into the `window.location` and `window.history` APIs to function
+- Browser routers keep the address bar in sync with your application routing
+- Many modern React packages/libraries/tools use the Context API in their artchitecture
+- Dynamic Routing within React leverages the composition of components and routing is done as the components are rendered (or not)
+
 ## Topics by Branch
 
 This repo is used to teach the fundamentals of [React](https://reactjs.org/). The `main` branch will always be up to date, with individual branches breaking down certain concepts.
